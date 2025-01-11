@@ -11,7 +11,7 @@ export default function WebsiteOverview() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div className="text-[16px] font-fontJakarta space-y-6 text-zinc-300 text-justify leading-relaxed">
             <p>
               Logo kami melambangkan tiga pilar utama yang menjadi fondasi Event
@@ -58,7 +58,7 @@ export default function WebsiteOverview() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative w-[411px] h-[394px] md:w-[700px] md:h-[700px] bg-black overflow-hidden">
               <img
-                src="/assets/Logo.png"
+                src="../assets/keluar.png"
                 alt="Event Fundly Logo - Representing transparency, ease, and financial sustainability"
                 className="object-contain p-8 w-full h-full"
               />

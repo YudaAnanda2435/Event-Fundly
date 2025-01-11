@@ -32,7 +32,7 @@ const Navbar = () => {
     activeSection === sectionId ? "text-blue-500" : "";
 
   return (
-    <div className="bg-black text-white z-50 fixed top-0 left-0 w-full">
+    <div className="bg-black  text-white z-50 fixed top-0 right-0 left-0 w-full">
       <header className="container mx-auto px-6 md:px-20 py-4">
         <div className="flex justify-between items-center">
           <div className="text-lg font-bold text-center font-fontJakarta">
@@ -131,22 +131,12 @@ const Navbar = () => {
                 Bantuan
               </a>
             </nav>
-            <div className="mt-4 space-y-2">
+            <div className="mt-4 space-y-2 flex flex-col">
               <Link to="/signin">
-                <button
-                  className="w-full px-6 py-2 text-sm bg-transparent border-2 border-transparent rounded-l-lg hover:bg-blue-600 hover:text-white transition-all duration-300"
-                  style={{ width: "138px", height: "50px" }}
-                >
-                  Sign In
-                </button>
+                <button className="text-start">Sign In</button>
               </Link>
               <Link to="/signup">
-                <button
-                  className="w-full px-6 py-2 text-sm bg-blue-600 rounded-lg hover:bg-blue-700 transition-all duration-300"
-                  style={{ width: "138px", height: "50px" }}
-                >
-                  Sign Up
-                </button>
+                <button className="mt-2 text-start">Sign Up</button>
               </Link>
             </div>
           </div>

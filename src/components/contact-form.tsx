@@ -47,7 +47,7 @@ export default function ContactForm() {
 
   return (
     <div className="min-h-screen bg-black text-black py-12">
-      <div className="container px-4 md:px-6">
+      <div className="container m-auto px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-start max-w-6xl mx-auto">
           <div className="border-0 shadow-lg rounded-3xl bg-white p-6">
             <form className="space-y-4" onSubmit={handleSubmit}>

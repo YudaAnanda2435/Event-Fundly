@@ -23,7 +23,7 @@ const Step = () => {
   return (
     <section className="bg-black text-white py-16">
       <div className="container mx-auto px-6 md:px-20 text-center">
-        <h2 className="text-[56px] font-base mb-4 font-fontJakarta">
+        <h2 className="md:text-[56px] text-4xl font-base mb-4 font-fontJakarta">
           How It Works
         </h2>
         <p className="text-base font-fontJakarta text-gray-400 mb-12 text-[22px]">
